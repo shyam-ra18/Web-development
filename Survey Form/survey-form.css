@@ -1,0 +1,46 @@
+body{
+    background-color: #f9c64e;
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    min-height: 10vh;
+}
+.firstbox{
+    background-color: #f9c64e;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 30px;
+    font-family: 'Lora', serif;
+    text-shadow: #42cffa;
+   
+
+}
+.secondbox{
+    background-color: #f9c64e;
+}
+.thirdbox{
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px 15px;
+}
+.Submit{
+    border: 1px solid #6fd6ff;
+    background-color: #42cffa;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
+h3{
+    font-family: 'Niconne', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.Submit:hover{
+    background-color: #afa2ff;
+    
+}
+.service{
+    display: block;
+    text-align: center;
+}
