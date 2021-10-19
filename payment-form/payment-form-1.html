@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        h1 {
+          font-family: 'Tangerine', serif;
+          font-size: 48px;
+        }
+      </style>
+</head>
+<body>
+    <h1>Payment Form</h1>
+    <form>
+     <h3>Personal Information</h3>
+     <label for="Name">
+         Name : <input type="text" id="Name" placeholder="Enter Your Name" required><br><br>
+     </label>
+     <label for="Gender">
+       Gender :<br>
+       <input type="radio" id="Male" name="Gender"><label for="Male">Male</label><br>
+       <input type="radio" id="Female" name="Gender"><label for="Female">Female</label><br>
+       <input type="radio" id="Others" name="Gender"><label for="Others">Others</label><br><br>
+     </label>
+     <label for="Email">
+        Email : <input type="email" id="Email" placeholder="Enter your email" required><br>
+    </label><br>
+    <label for="Password">
+        Password : <input type="password" id="Password" placeholder="Enter your password" required><br>
+    </label><br>
+    <label for="DOB">
+        Date Of Birth : <input type="date" id="DOB" required><br>
+    </label><br>
+     
+    <h3>Bank Details</h3>
+    <p>Card We accept :</p>
+    <img src="card1.png" ><img src="card2.png" ><img src="card3.png" ><img src="card4.jpg" ><br><br>
+    <label for="Card Number">
+        Card Number : <input type="number" id="Card Number" required placeholder="Enter you card Number"><br>
+    </label><br>
+    <label for="Card Expiry">
+        Card Expiry : <input type="date" id="Card Expiry" required placeholder="Enter you Card Expiry Date"><br>
+    </label><br>
+    <label for="CVV">
+        CVV : <input type="number" id="CVV" required placeholder="Enter you Card CVV" maxlength="3" minlength="3"><br>
+    </label><br>
+    <button>Submit</button><button>Reset</button>
+
+    </form>
+
+</body>
+</html>
