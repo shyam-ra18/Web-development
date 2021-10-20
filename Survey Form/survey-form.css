@@ -44,3 +44,7 @@ h3{
     display: block;
     text-align: center;
 }
+/* Adding * (required) filled is always in last */
+span{
+  color:red;
+}
